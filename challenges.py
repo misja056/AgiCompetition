@@ -18,7 +18,7 @@ async def challenge1(self):
     await self.send(embed=embedChal1)
 
 async def challenge2(self):
-    await self.send(file=discord.File('C:/Users/groen/Documents/AgiCompetition/img/mint gym.png'))
+    await self.send(file=discord.File('img/mint gym.png'))
     await self.send("*Welcome to Mint City.*")
     await self.send("The First Pokémon Gym is located in this town and it's a **Rock Type Gym**.")
     await self.send("You can also go to <#" + str(985494646950084638) +"> here to catch some more Pokémon before challenging this gym.")
@@ -29,12 +29,12 @@ async def challenge3(self):
     await self.send("*Welcome Mint Badge Trainer,*")
     await self.send("On this route you encounter a **sleeping Snorlax** <:sleeping:986764892885356544>.")
     await self.send("You & your team cannot move it or awake it. However you remember that there is a Pokémon who is very **loud**. Maybe 3 of them can help wake him up")
-    await self.send(file=discord.File('C:/Users/groen/Documents/AgiCompetition/img/pokemon-tired.gif'))
+    await self.send(file=discord.File('img/pokemon-tired.gif'))
     embedChal3 = e(title="Challenge 3: Catch 3 Pokémon that are loud", description="Send <@" + str(238353350964281344) + "> a Direct Message with the screenshots that you have caught it. There are 3 correct answers in this scenario")
     await self.send(embed=embedChal3)
 
 async def challenge4(self):
-    await self.send(file=discord.File('C:/Users/groen/Documents/AgiCompetition/img/unknown.png'))
+    await self.send(file=discord.File('img/unknown.png'))
     await self.send("*Welcome to Herbal Town <:herb:986763418667208764>,*")
     await self.send("This town strikes you as weird, since no herbs are to be found anywhere anymore.. there are only dried landscapes and all the people seem to have moved out except for a few. You decide to ask around a few villagers, but get no definite answers except that they don't know any better and they never touched any herbs in their entire life. You find that strange, however it will be fine you guess..")
     await self.send("For now, you'll have to do what you came to do here, to fight the Herbal Town Gym. It's a **grass type gym**")
