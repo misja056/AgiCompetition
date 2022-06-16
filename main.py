@@ -15,7 +15,7 @@ from discord.ext import commands
 load_dotenv('token.env')
 
 # Grab the API token from the .env file.
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+DISCORD_TOKEN = os.environ['DISCORD_TOKEN']
 
 # GETS THE CLIENT OBJECT FROM DISCORD.PY. CLIENT IS SYNONYMOUS WITH BOT.
 #bot = discord.Client()
