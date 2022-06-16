@@ -2,4 +2,4 @@ name: learn-github-actions
 env: 
   DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 run: |
-  nbdev_test_nbs
+  main.py
