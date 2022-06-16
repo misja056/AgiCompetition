@@ -12,10 +12,10 @@ from discord.utils import get
 from discord.ext import commands
 
 # Loads the .env file that resides on the same level as the script.
-load_dotenv('token.env')
+#load_dotenv('token.env')
 
 # Grab the API token from the .env file.
-DISCORD_TOKEN = os.environ['DISCORD_TOKEN']
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
 
 # GETS THE CLIENT OBJECT FROM DISCORD.PY. CLIENT IS SYNONYMOUS WITH BOT.
 #bot = discord.Client()
