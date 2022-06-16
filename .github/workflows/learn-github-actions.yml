@@ -1,5 +1,12 @@
-name: learn-github-actions
-env: 
-  DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-run: |
-  nbdev_test_nbs
+name: secrets
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubutunu-latest
+    steps:
+      - name: learn-github-actions
+        env: 
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+        run: main.py
